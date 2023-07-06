@@ -1,7 +1,7 @@
 {
   "name": "keybr++",
   "author": "Will 'WillsterJohnson' Johnson",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Make https://www.keybr.com/ just that little bit better.",
   "license": "GPL-3.0",
   "type": "module",
