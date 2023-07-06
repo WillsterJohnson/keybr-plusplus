@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "build": "rollup --config rollup.config.ts --configPlugin typescript",
-    "zip": "zip -r wjutils.zip manifest.json LICENSE.txt dist/",
+    "zip": "zip -r keybrpp.zip manifest.json LICENSE.txt dist/",
     "dist": "pnpm build && pnpm zip",
     "dev": "rollup --config rollup.config.ts --configPlugin typescript --watch",
     "test": "echo \"No tests specified\""
