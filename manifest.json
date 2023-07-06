@@ -3,7 +3,7 @@
   "manifest_version": 3,
   "name": "KEYBR++",
   "description": "Make https://www.keybr.com/ just that little bit better.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "browser_specific_settings": {
     "gecko": {
       "id": "keybrpluplus@willsterjohnson.com",
