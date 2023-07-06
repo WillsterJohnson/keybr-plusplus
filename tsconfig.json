@@ -1,0 +1,20 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+  "compilerOptions": {
+    "types": ["chrome-types"],
+    "module": "ESNext",
+    "target": "ESNext",
+    "allowJs": false,
+    "noImplicitAny": true,
+    "importHelpers": true,
+    "isolatedModules": false,
+    "strictNullChecks": true,
+    "exactOptionalPropertyTypes": true,
+    "strict": true,
+    "noEmit": true,
+    "removeComments": false,
+    "skipLibCheck": true,
+    "sourceMap": false
+  },
+  "include": ["src/**/*.ts", "rollup.config.ts"]
+}

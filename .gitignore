@@ -1,0 +1,4 @@
+dist/**/*
+!dist/**/*.html
+node_modules
+*.zip

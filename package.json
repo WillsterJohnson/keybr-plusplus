@@ -1,0 +1,31 @@
+{
+  "name": "keybr++",
+  "author": "Will 'WillsterJohnson' Johnson",
+  "version": "0.1.0",
+  "description": "Make https://www.keybr.com/ just that little bit better.",
+  "license": "GPL-3.0",
+  "type": "module",
+  "scripts": {
+    "build": "rollup --config rollup.config.ts --configPlugin typescript",
+    "zip": "zip -r wjutils.zip manifest.json LICENSE.txt dist/",
+    "dist": "pnpm build && pnpm zip",
+    "dev": "rollup --config rollup.config.ts --configPlugin typescript --watch",
+    "test": "echo \"No tests specified\""
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-terser": "^0.4.3",
+    "@rollup/plugin-typescript": "^11.1.2",
+    "@tsconfig/svelte": "^5.0.0",
+    "chrome-types": "^0.1.212",
+    "prettier": "^3.0.0",
+    "rollup": "^3.26.2",
+    "rollup-plugin-license": "^3.0.1",
+    "rollup-plugin-svelte": "^7.1.6",
+    "sass": "^1.63.6",
+    "svelte": "^4.0.4",
+    "svelte-preprocess": "^5.0.4",
+    "tslib": "^2.6.0",
+    "typescript": "^5.1.6"
+  }
+}
