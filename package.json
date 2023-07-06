@@ -10,7 +10,7 @@
     "zip": "zip -r keybrpp.zip manifest.json LICENSE.txt dist/",
     "dist": "pnpm build && pnpm zip",
     "dev": "rollup --config rollup.config.ts --configPlugin typescript --watch",
-    "test": "echo \"No tests specified\""
+    "bump": "node bumpVersion.js"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.1.0",
