@@ -10,7 +10,7 @@
       "strict_min_version": "100.0"
     }
   },
-  "permissions": ["storage", "tabs", "activeTab", "scripting"],
+  "permissions": ["tabs", "activeTab", "scripting"],
   "host_permissions": ["https://www.keybr.com/", "https://www.keybr.com/*"],
 
   "content_scripts": [
