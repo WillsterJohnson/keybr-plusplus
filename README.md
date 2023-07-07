@@ -6,7 +6,7 @@ Make <https://www.keybr.com/> just that little bit better.
 
 ### Firefox
 
-[Downlead Keybr++ for FireFox](https://github.com/WillsterJohnson/keybr-plusplus/releases/latest/download/keybr++.xpi)
+[Download Keybr++ for FireFox](https://github.com/WillsterJohnson/keybr-plusplus/releases/latest/download/keybr++.xpi)
 
 After installing, go to [about:addons](about:addons) and find Keybr++ in the list of extensions.
 
