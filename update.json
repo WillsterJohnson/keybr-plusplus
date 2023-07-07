@@ -1,0 +1,12 @@
+{
+  "addons": {
+    "keybr-plusplus@willsterjohnson.com": {
+      "updates": [
+        {
+          "version": "0.1.0",
+          "update_link": "https://github.com/WillsterJohnson/keybr-plusplus/releases/latest/download/keybrpp.xpi"
+        }
+      ]
+    }
+  }
+}

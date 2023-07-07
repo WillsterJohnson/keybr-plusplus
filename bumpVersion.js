@@ -4,10 +4,10 @@ const args = process.argv.slice(2);
 
 const bumpType = args[0];
 
-const packageJson = JSON.parse(fs.readFileSync("./package.json", "utf8"));
-const packageJsonVersion = packageJson.version;
+const manifestJson = JSON.parse(fs.readFileSync("./manifest.json", "utf8"));
+const manifestJsonVersion = manifestJson.version;
 
-const [major, minor, patch] = packageJsonVersion.split(".");
+const [major, minor, patch] = manifestJsonVersion.split(".");
 
 let newVersion;
 
@@ -25,10 +25,14 @@ switch (bumpType) {
     throw new Error("Invalid bump type");
 }
 
-packageJson.version = newVersion;
-
-fs.writeFileSync("./package.json", JSON.stringify(packageJson, null, 2));
-
-const manifestJson = JSON.parse(fs.readFileSync("./manifest.json", "utf8"));
 manifestJson.version = newVersion;
+
 fs.writeFileSync("./manifest.json", JSON.stringify(manifestJson, null, 2));
+
+const updateJson = JSON.parse(fs.readFileSync("./update.json", "utf8"));
+const addonKey = Object.keys(updateJson.addons)[0];
+updateJson.addons[addonKey].updates.push({
+  version: newVersion,
+  update_link:
+    "https://github.com/WillsterJohnson/keybr-plusplus/releases/latest/download/keybrpp.xpi",
+});

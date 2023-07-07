@@ -2,18 +2,21 @@
   "$schema": "https://json.schemastore.org/chrome-manifest",
   "manifest_version": 3,
   "name": "KEYBR++",
+  "version": "0.1.0",
   "description": "Make https://www.keybr.com/ just that little bit better.",
-  "version": "0.1.1",
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "keybrpluplus@willsterjohnson.com",
-      "strict_min_version": "100.0"
-    }
-  },
+  "homepage_url": "https://github.com/WillsterJohnson/keybr-plusplus",
   "content_scripts": [
     {
       "matches": ["https://www.keybr.com/*"],
       "js": ["dist/contentscript.js"]
     }
-  ]
+  ],
+  "update_url": "https://github.com/WillsterJohnson/keybr-plusplus/releases/latest/download/update.json",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "keybr-plusplus@willsterjohnson.com",
+      "strict_min_version": "109.0",
+      "update_url": "https://github.com/WillsterJohnson/keybr-plusplus/releases/latest/download/update.json"
+    }
+  }
 }

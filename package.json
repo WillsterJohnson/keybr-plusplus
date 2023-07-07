@@ -1,13 +1,11 @@
 {
-  "name": "keybr++",
   "author": "Will 'WillsterJohnson' Johnson",
-  "version": "0.1.1",
-  "description": "Make https://www.keybr.com/ just that little bit better.",
+  "private": true,
   "license": "GPL-3.0",
   "type": "module",
   "scripts": {
     "build": "rollup --config rollup.config.ts --configPlugin typescript",
-    "zip": "zip -r keybrpp.zip manifest.json LICENSE.txt dist/",
+    "zip": "zip -r keybrpp.xpi manifest.json LICENSE.txt dist/",
     "dist": "pnpm build && pnpm zip",
     "dev": "rollup --config rollup.config.ts --configPlugin typescript --watch",
     "bump": "node bumpVersion.js"
