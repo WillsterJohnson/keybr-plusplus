@@ -36,3 +36,4 @@ updateJson.addons[addonKey].updates.push({
   update_link:
     "https://github.com/WillsterJohnson/keybr-plusplus/releases/latest/download/keybrpp.xpi",
 });
+fs.writeFileSync("./update.json", JSON.stringify(updateJson, null, 2));

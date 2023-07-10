@@ -5,6 +5,10 @@
         {
           "version": "0.1.0",
           "update_link": "https://github.com/WillsterJohnson/keybr-plusplus/releases/latest/download/keybr++.xpi"
+        },
+        {
+          "version": "0.1.3",
+          "update_link": "https://github.com/WillsterJohnson/keybr-plusplus/releases/latest/download/keybrpp.xpi"
         }
       ]
     }
