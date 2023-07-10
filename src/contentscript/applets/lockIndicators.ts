@@ -2,6 +2,7 @@ import { applet } from "../applet.js";
 
 class LockIndicator {
   constructor() {
+    this.setLightState(false);
     window.addEventListener("keydown", (event) => {
       if (event.key === "CapsLock") {
         this.setLightState(!this.capsLocked);
