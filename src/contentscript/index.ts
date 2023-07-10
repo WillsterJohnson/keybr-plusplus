@@ -2,7 +2,7 @@ import { logger } from "../lib/logger/index.js";
 import { lockIndicator } from "./applets/lockIndicators.js";
 
 function main() {
-  if (!browser) browser = chrome;
+  if (typeof browser === "undefined") browser = chrome;
 
   lockIndicator();
 
