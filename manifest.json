@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/chrome-manifest",
   "manifest_version": 3,
   "name": "KEYBR++",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Make https://www.keybr.com/ just that little bit better.",
   "homepage_url": "https://github.com/WillsterJohnson/keybr-plusplus",
   "content_scripts": [
