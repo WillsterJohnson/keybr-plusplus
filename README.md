@@ -28,6 +28,17 @@ _well-informed permission from you._
 
 ## Features
 
+Everything Keybr++ does, sorted from newest to eldest.
+
+### Homepage Stats
+
+As of v0.2.0
+
+- adds a stats section to the homepage displaying daily and all-time stats for
+  average & best WPM, accuracy, and number of lessons completed
+
 ### Capslock Indicator
+
+As of v0.1.0
 
 - adds a capslock indicator to the keyboard

@@ -9,19 +9,18 @@ import type { Plugin, RollupOptions } from "rollup";
 // @ts-ignore
 const dev = process.env["npm_lifecycle_event"] === "dev";
 
-const createBundle = (
-  input: string,
-  output: RollupOptions["output"],
-  ...plugins: Plugin[]
-) => ({
+const createBundle = (input: string, output: RollupOptions["output"], ...plugins: Plugin[]) => ({
   input,
   output,
   plugins: [
     svelte({
       include: "src/**/*.svelte",
       preprocess: sveltePreprocess(),
-      emitCss: true,
-      compilerOptions: { dev },
+      emitCss: false,
+      compilerOptions: {
+        dev,
+        css: "injected",
+      },
     }),
     typescript(),
     resolve({
