@@ -9,7 +9,7 @@ Make <https://www.keybr.com/> just that little bit better.
 _The FireFox version is currently self-hosted due to the Addon store's strict requirements on store_
 _page descriptions._
 
-[Download Keybr++ for FireFox](https://github.com/WillsterJohnson/keybr-plusplus/releases/latest/download/keybr++.xpi)
+[Download Keybr++ for FireFox](https://github.com/WillsterJohnson/keybr-plusplus/releases/latest/download/keybrpp.xpi)
 
 After installing, go to [about:addons](about:addons) and find Keybr++ in the list of extensions.
 
