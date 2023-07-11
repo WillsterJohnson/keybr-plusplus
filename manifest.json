@@ -5,9 +5,6 @@
   "version": "0.2.0",
   "description": "Make https://www.keybr.com/ just that little bit better.",
   "homepage_url": "https://github.com/WillsterJohnson/keybr-plusplus",
-  "permissions": [
-    "storage"
-  ],
   "content_scripts": [
     {
       "matches": [
