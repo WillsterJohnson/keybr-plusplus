@@ -32,7 +32,7 @@ const createBundle = (input: string, output: RollupOptions["output"], ...plugins
       ? []
       : [
           terser({
-            mangle: { properties: true },
+            mangle: { properties: false },
             compress: { passes: 10 },
             output: { comments: false },
           }),
