@@ -17,6 +17,10 @@
         {
           "version": "0.2.1",
           "update_link": "https://github.com/WillsterJohnson/keybr-plusplus/releases/latest/download/keybrpp.xpi"
+        },
+        {
+          "version": "0.2.2",
+          "update_link": "https://github.com/WillsterJohnson/keybr-plusplus/releases/latest/download/keybrpp.xpi"
         }
       ]
     }
