@@ -13,7 +13,7 @@ class HomepageStats {
     window.addEventListener("focus", () => this.shouldPause--);
     window.addEventListener("blur", () => this.shouldPause++);
     window.addEventListener("keypress", () => this.pause());
-    this.resume();
+    this.showStats().then(() => this.resume());
   }
 
   protected async init() {
