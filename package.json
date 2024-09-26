@@ -18,7 +18,7 @@
     "chrome-types": "^0.1.213",
     "prettier": "^2.8.8",
     "prettier-plugin-svelte": "^2.10.1",
-    "rollup": "^3.26.2",
+    "rollup": "^3.29.5",
     "rollup-plugin-license": "^3.0.1",
     "rollup-plugin-svelte": "^7.1.6",
     "sass": "^1.63.6",
